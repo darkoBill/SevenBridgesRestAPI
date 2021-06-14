@@ -8,3 +8,4 @@
 5. application will start running on localhost:8080/tweets
 6. of course, if you are not authorized,meaning you don't have an user parameter in the headers,you won't be able to access it
 7. all API endpoints testing can be performed using Postman
+8. Please see Example folder for detailed explanation
