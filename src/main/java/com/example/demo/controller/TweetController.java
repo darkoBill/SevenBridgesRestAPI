@@ -74,11 +74,6 @@ public class TweetController {
 
 	@GetMapping("user/{username}")
 	public ResponseEntity<List<Tweet>> getTweetsByUser(@PathVariable("username") String username) {
-		
-		if(Utility.doesStringContainNumbers(username)){
-			logger.error(username);
-			return new ResponseEntity<List<Tweet>>(HttpStatus.BAD_REQUEST);
-		}
 
 		List<String> users = tweetService.getAllUsers();
 		String userFound = Utility.findUserFromString(username, users);
