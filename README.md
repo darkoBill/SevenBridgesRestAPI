@@ -1,4 +1,4 @@
-# Create a REST API in Spring Boot with MYSQL
+# REST API in Spring Boot with MYSQL
 *Small "restlike" API that mimics some basic functionalities of Twitter.*
 
 1. create a DB schema from SQL script
